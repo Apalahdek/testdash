@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "env": {
+    "VITE_DISCORD_CLIENT_ID": "@discord_client_id",
+    "VITE_REDIRECT_URI": "@redirect_uri",
+    "VITE_API_URL": "@api_url"
+  }
+}
